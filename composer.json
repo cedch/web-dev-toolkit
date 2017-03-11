@@ -1,22 +1,8 @@
-"repositories": [
-  {
-    "type": "package",
-    "package": {
-      "name": "cedch/web-dev-toolkit",
-      "version": "dev-master",
-      "source": {
-        "url": "git://github.com/cedch/web-dev-toolkit.git",
-        "type": "git",
-        "reference": "master"
-      },
-      "autoload": {
-        "psr-0" : {
-          "cedch\\web-dev-toolkit" : "src"
-        }
-      }
+{
+  "name": "cedch/web-dev-toolkit",
+  "autoload": {
+    "psr-0" : {
+      "cedch\\web-dev-toolkit" : "src"
     }
   }
-],
-"require": {
-  "cedch/web-dev-toolkit": "dev-master"
 }
